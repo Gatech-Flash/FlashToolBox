@@ -19,6 +19,8 @@ sh depoly_on_server.sh
 
 ## Tmux
 
+## Zsh
+
 ## PDB & IPDB
 
 ```
