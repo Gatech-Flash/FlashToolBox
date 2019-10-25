@@ -17,6 +17,32 @@ sh depoly_on_server.sh
 
 ## Vim
 
+cheat sheet: https://vim.rtorr.com/
+
+- `i`: insert
+- `v`: visual
+- `V`: visual, line mode
+- `esc`: quit mode
+- `:q`: quit
+- `:wq`: save+quit
+- `:w`: save
+- `space + enter`: search (`n` for next, `N` for previous)
+- `y`: copy
+- `p`: paste
+- `d`: cut
+- `dd`: cut line
+- `shift + up/down`: move the line
+- `shift + ,/.`: tab, indent 
+- `u`: undo
+- `Ctrl + r`: redo
+- `, + nn`: open/close NERD-tree
+
+In NERD-tree:
+- '?': show help
+- 'shift + i': show hidden files.
+- 't': open in tab
+
+
 ## Tmux
 
 ## Zsh
