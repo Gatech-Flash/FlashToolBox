@@ -45,6 +45,24 @@ In NERD-tree:
 
 ## Tmux
 
+[CheatSheet](https://tmuxcheatsheet.com/)
+
+- `tmux`: open new session
+- `tmux a`: attach the last session
+
+In tmux (Session > Windows(Tabs) > Panes)
+- `Ctrl+b` `d`: detach
+- `Ctrl+b` `m`: turn on/off mouse mode
+- `Ctrl+b` `s`: switch session
+- `Ctrl+b` `$`: rename session
+- `Ctrl+b` `:new -s xxx`: new session with name 'xxx'
+- `Ctrl+b` `c`: new window 
+- `Ctrl+b` `&`: close window (all panes)
+- `Ctrl+b` `"`: Split pane horizontally
+- `Ctrl+b` `%`: Split pane vertically
+- `Ctrl+b` `x`: close pane 
+
+
 ## Zsh
 
 ## PDB & IPDB
@@ -55,6 +73,8 @@ import ipdb; ipdb.set_trace()
 ```
 
 PDB Cheat Sheet: [link](https://appletree.or.kr/quick_reference_cards/Python/Python%20Debugger%20Cheatsheet.pdf)
+
+`q`: quit
 
 ## GPU usgae
 
