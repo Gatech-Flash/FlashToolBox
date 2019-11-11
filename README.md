@@ -8,7 +8,7 @@ Tool Box for Flash Members
 pip install flashtool
 ```
 
-## File logger
+### File logger
 For every print function, we print a copy to file without changing the whole file. 
 
 Example: 
@@ -103,17 +103,20 @@ CUDA_VISIBLE_DEVICES=3 python run.py
 ## Docker
 [link](https://github.com/Gatech-Flash/FlashToolBox/blob/master/Docker.md)
 
-## Other linux commends
-`htop`
-`ls`
-`cd`
-`touch`
+## Linux commends
+- `htop`
+- `ls`
+- `cd`
+- `touch`
 
 **file processing**
-` > `
-`cat`
-`head`  `head -n 5`
-`tail`  `tail -n 5`
+- ` > `
+- `cat`
+- `head`  `head -n 5`
+- `tail`  `tail -n 5`
 
+
+## Someting Else
+[deepmind interview killer](https://hmjianggatech.github.io/files/questionlist.xlsx)
 
 
