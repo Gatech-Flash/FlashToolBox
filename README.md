@@ -94,7 +94,25 @@ PDB Cheat Sheet: [link](https://appletree.or.kr/quick_reference_cards/Python/Pyt
 
 `q`: quit
 
-## GPU usgae
+### GPU usage
+```
+CUDA_VISIBLE_DEVICES=3 python run.py
+```
+`nvidia-smi`
 
 ## Docker
+
+## Other linux commends
+`htop`
+`ls`
+`cd`
+`touch`
+
+**file processing**
+` > `
+`cat`
+`head`  `head -n 5`
+`tail`  `tail -n 5`
+
+
 
