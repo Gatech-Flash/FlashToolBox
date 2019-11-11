@@ -1,7 +1,12 @@
 # FlashToolBox
 Tool Box for Flash Members
 
-## Toolkits
+## Python Toolkits
+[Github](https://github.com/Gatech-Flash/FlashPythonToolbox)
+
+It includes file logger.
+
+## Server Toolkits
 [Download](https://hmjianggatech.github.io/files/atom_vim_zsh_tmux_configs.zip)
 
 It contains setup configs for `tmux`, `zsh`, `vim`, `anaconda`.
