@@ -4,7 +4,19 @@ Tool Box for Flash Members
 ## Python Toolkits
 [Github](https://github.com/Gatech-Flash/FlashPythonToolbox)
 
-It includes file logger.
+```
+pip install flashtool
+```
+
+## File logger
+For every print function, we print a copy to file without changing the whole file. 
+
+Example: 
+```
+from flashtool import Logger
+import sys
+sys.stdout = Logger("path/to/log/file/log.txt")
+```
 
 ## Server Toolkits
 [Download](https://hmjianggatech.github.io/files/atom_vim_zsh_tmux_configs.zip)
@@ -20,7 +32,7 @@ unzip atom_vim_zsh_tmux_configs.zip
 sh depoly_on_server.sh
 ```
 
-## Vim
+### Vim
 
 cheat sheet: https://vim.rtorr.com/
 
@@ -49,7 +61,7 @@ In NERD-tree:
 - `enter`: open in current tab
 
 
-## Tmux
+### Tmux
 
 [CheatSheet](https://tmuxcheatsheet.com/)
 
@@ -69,9 +81,9 @@ In tmux (Session > Windows(Tabs) > Panes)
 - `Ctrl+b` `x`: close pane 
 
 
-## Zsh
+### Zsh
 
-## PDB & IPDB
+### PDB & IPDB
 
 ```
 # set up break points
