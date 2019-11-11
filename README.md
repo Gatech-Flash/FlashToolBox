@@ -9,7 +9,7 @@ pip install flashtool
 ```
 
 ### File logger
-For every print function, we print a copy to file without changing the whole file. 
+For every print function, we print a copy to file without changing the whole file.  Similar to `tee`
 
 Example: 
 ```
@@ -114,6 +114,8 @@ CUDA_VISIBLE_DEVICES=3 python run.py
 - `cat`
 - `head`  `head -n 5`
 - `tail`  `tail -n 5`
+- `|tee`
+- `grep`
 
 
 ## Someting Else
