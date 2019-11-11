@@ -38,9 +38,10 @@ cheat sheet: https://vim.rtorr.com/
 - `, + nn`: open/close NERD-tree
 
 In NERD-tree:
-- '?': show help
-- 'shift + i': show hidden files.
-- 't': open in tab
+- `?`: show help
+- `shift + i`: show hidden files.
+- `t`: open in new tab
+- `enter`: open in current tab
 
 
 ## Tmux
