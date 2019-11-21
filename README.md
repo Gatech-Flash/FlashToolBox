@@ -92,6 +92,7 @@ In tmux (Session > Windows(Tabs) > Panes)
 - `Ctrl+b` `&`: close window (all panes)
 - `Ctrl+b` `"`: Split pane horizontally
 - `Ctrl+b` `%`: Split pane vertically
+- `Ctrl+b` `o`: Switch pane
 - `Ctrl+b` `x`: close pane 
 
 
@@ -119,11 +120,14 @@ CUDA_VISIBLE_DEVICES=3 python run.py
 ## Docker
 [link](https://github.com/Gatech-Flash/FlashToolBox/blob/master/Docker.md)
 
-## Linux commends
+## Linux commands
 - `htop`
 - `ls`
 - `cd`
 - `touch`
+
+## File permission
+- `chmod u+x file.sh`: To allow `./file.sh` permission
 
 **file processing**
 - ` > `
