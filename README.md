@@ -12,13 +12,25 @@ pip install flashtool
 For every print function, we print a copy to file without changing the whole file.  Similar to `tee`
 
 Example: 
-```
+```python
 from flashtool import Logger
 import sys
 sys.stdout = Logger("path/to/log/file/log.txt")
 ```
 ### Email Module
+```python
+# Example
+from flashtool import send_email
+send_email(receiver_email="xxx@gmail.com", subject="Hi", message="first email")
+```
 ### Job Tracker
+Send a email when job (pid) is done.
+```python
+# Example
+from flashtool import trackpid
+trackpid(12345,5,"xxx@gmail.com")
+trackpid([1357,2468],5,"xxx@gmail.com")
+```
 
 ## Server Toolkits
 [Download](https://hmjianggatech.github.io/files/atom_vim_zsh_tmux_configs.zip)
