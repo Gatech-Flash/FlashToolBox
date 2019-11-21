@@ -107,6 +107,8 @@ import ipdb; ipdb.set_trace()
 PDB Cheat Sheet: [link](https://appletree.or.kr/quick_reference_cards/Python/Python%20Debugger%20Cheatsheet.pdf)
 
 `q`: quit
+`c`: continue
+`n`: next line
 
 ### GPU usage
 ```
