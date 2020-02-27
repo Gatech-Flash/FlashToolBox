@@ -58,15 +58,19 @@ cheat sheet: https://vim.rtorr.com/
 - `:wq`: save+quit
 - `:w`: save
 - `space + enter`: search (`n` for next, `N` for previous)
+- `:%s/string1/string2/gc`: replace string1 by string2 (normal mode)
 - `y`: copy
-- `p`: paste
+- `p`: paste in normal mode
+- `shift + mouse right`: paste from outside
+- `Ctrl + r``0`: paste in insert mode
 - `d`: cut
 - `dd`: cut line
 - `shift + up/down`: move the line
 - `shift + ,/.`: tab, indent 
-- `u`: undo
-- `Ctrl + r`: redo
+- `u`: undo (normal mode)
+- `Ctrl + r`: redo  (normal mode)
 - `, + nn`: open/close NERD-tree
+- `Ctrl + v` enter block visual mode --> select block --> `shfit + i` enter insert mode --> insert `#` --> `esc`: comment
 
 In NERD-tree:
 - `?`: show help
